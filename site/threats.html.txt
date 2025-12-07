@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="uk">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Загрози та протидія — Бразилія</title>
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+  <header class="site-header small">
+    <div class="container">
+      <h1 class="brand">Загрози та протидія</h1>
+      <nav class="nav">
+        <a href="index.html">Головна</a>
+        <a href="resume.html">Резюме</a>
+        <a href="economic.html">Економічна безпека</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="card">
+      <h2>5 основних загроз економічній безпеці</h2>
+      <table class="simple-table" aria-describedby="threats">
+        <thead>
+          <tr><th>#</th><th>Загроза</th><th>Короткий опис</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>1</td><td>Інфляція</td><td>Погіршує купівельну спроможність та підриває макростабільність.</td></tr>
+          <tr><td>2</td><td>Високий державний борг</td><td>Обмежує фіскальні маневри та підвищує ризик рецесії при шоках.</td></tr>
+          <tr><td>3</td><td>Нерівність доходів</td><td>Соціальна напруга та зниження довгострокового зростання.</td></tr>
+          <tr><td>4</td><td>Корупція</td><td>Псує інвестиційний клімат і знижує ефективність витрат.</td></tr>
+          <tr><td>5</td><td>Енергетична/сировинна залежність</td><td>Вразливість до коливань світових цін і логістичних ризиків.</td></tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section class="card">
+      <h2>5 методів протидії</h2>
+      <table class="simple-table" aria-describedby="measures">
+        <thead>
+          <tr><th>#</th><th>Метод</th><th>Короткий опис</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>1</td><td>Антиінфляційна монетарна політика</td><td>Цільове таргетування інфляції, макропруденційні інструменти.</td></tr>
+          <tr><td>2</td><td>Диверсифікація ринків та експорту</td><td>Зменшення залежності від вузького кола товарів/ринків.</td></tr>
+          <tr><td>3</td><td>Антикорупційна політика</td><td>Підвищення прозорості, електронні закупівлі, реформи судової системи.</td></tr>
+          <tr><td>4</td><td>Інвестиції в освіту та людський капітал</td><td>Довгострокове підвищення продуктивності та зниження нерівності.</td></tr>
+          <tr><td>5</td><td>Зміцнення фінансової системи</td><td>Резерви ліквідності, стрес-тести банків, страхування ризиків.</td></tr>
+        </tbody>
+      </table>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>Таблиці — короткі і придатні для презентації/доповіді. Можливе розширення з конкретними даними з Excel.</p>
+    </div>
+  </footer>
+</body>
+</html>

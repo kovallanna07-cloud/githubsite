@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="uk">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Резюме — Anna Koval</title>
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+  <header class="site-header small">
+    <div class="container">
+      <h1 class="brand">Anna Koval</h1>
+      <nav class="nav">
+        <a href="index.html">Головна</a>
+        <a href="economic.html">Економічна безпека</a>
+        <a href="threats.html">Загрози</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="card">
+      <h2>Контактні дані</h2>
+      <p><strong>ПІБ:</strong> Anna Koval</p>
+      <p><strong>Телефон:</strong> (+380) 774504545</p>
+      <p><strong>Email:</strong> <a href="mailto:kovallanna07@gmail.com">kovallanna07@gmail.com</a></p>
+      <p><strong>Адреса:</strong> Milutenka st.6, 02156 Kyiv, Ukraine</p>
+    </section>
+
+    <section class="card small-note">
+      <p class="muted">Джерело даних: ваше завантажене резюме. :contentReference[oaicite:2]{index=2}</p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>Резюме — лише ПІБ та контакти, як замовлено.</p>
+    </div>
+  </footer>
+</body>
+</html>

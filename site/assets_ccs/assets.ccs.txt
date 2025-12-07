@@ -1,0 +1,40 @@
+:root{
+  --bg:#f6f7fb;
+  --card:#ffffff;
+  --muted:#666;
+  --accent:#0b76ef;
+  --text:#222;
+  --radius:12px;
+  --container:1100px;
+  --gap:18px;
+  font-size:16px;
+}
+*{box-sizing:border-box}
+body{
+  font-family:Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+  margin:0;
+  background:var(--bg);
+  color:var(--text);
+  -webkit-font-smoothing:antialiased;
+  -moz-osx-font-smoothing:grayscale;
+}
+.container{max-width:var(--container);margin:28px auto;padding:0 18px}
+.site-header{background:linear-gradient(90deg,#ffffffcc,#f0f6ffcc);border-bottom:1px solid #e6eef8}
+.site-header.small{padding:10px 0}
+.site-header .container{display:flex;align-items:center;justify-content:space-between}
+.brand{margin:12px 0;font-size:20px;letter-spacing:0.4px}
+.nav a{margin-left:14px;text-decoration:none;color:var(--accent);font-weight:600}
+.hero{padding:28px}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px;margin-top:18px}
+.card{background:var(--card);padding:18px;border-radius:var(--radius);box-shadow:0 6px 18px rgba(12,40,80,0.06)}
+.card h2{margin-top:0}
+.card.small-note{font-size:0.95rem}
+.site-footer{padding:18px 0;margin-top:28px;text-align:center;color:var(--muted);font-size:0.95rem}
+.muted{color:var(--muted);font-size:0.95rem}
+.simple-table{width:100%;border-collapse:collapse;margin-top:10px}
+.simple-table th, .simple-table td{padding:10px;border:1px solid #eef4fb;text-align:left}
+a.button{display:inline-block;padding:10px 14px;background:var(--accent);color:#fff;border-radius:8px;text-decoration:none}
+@media (max-width:640px){
+  .site-header .container{flex-direction:column;align-items:flex-start}
+  .nav{margin-top:8px}
+}

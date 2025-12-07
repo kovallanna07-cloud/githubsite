@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="uk">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Anna Koval — Портфоліо</title>
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <h1 class="brand">Anna Koval</h1>
+      <nav class="nav">
+        <a href="resume.html">Резюме</a>
+        <a href="economic.html">Економічна безпека країни</a>
+        <a href="threats.html">Загрози та протидія</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="hero card">
+      <h2>Вітаю!</h2>
+      <p>Це невеличкий сайт-портфоліо з резюме та аналізом економічної безпеки Бразилії. Використай навігацію згори, щоб переглянути сторінки.</p>
+    </section>
+
+    <section class="cards">
+      <a class="card" href="resume.html">
+        <h3>Резюме</h3>
+        <p>Контактні дані та коротка інформація.</p>
+      </a>
+      <a class="card" href="economic.html">
+        <h3>Економічна безпека країни</h3>
+        <p>Текст та підсумки (включно з прикріпленими таблицями).</p>
+      </a>
+      <a class="card" href="threats.html">
+        <h3>Загрози та протидія</h3>
+        <p>Списки/таблиці загроз і методів протидії.</p>
+      </a>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>Згенеровано для завдання. Файли для завантаження — у assets/files/</p>
+    </div>
+  </footer>
+</body>
+</html>
